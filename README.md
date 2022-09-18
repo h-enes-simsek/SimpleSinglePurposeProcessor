@@ -7,4 +7,4 @@ This repo contains source files and testbench files of a single purpose processo
 /design_docs contains design documents of register block, alu and top view of processor architecture,
 and finalreport.pdf describes my state machine that operates division.
 
-A little note if anyone wonders why I didn't use long division. Because there are only two registers can access ALU in this design and I had no right to change the design; so, I had to use a simpler fsm.
+A little note if anyone wonders why I didn't use long division. Because there are only two registers can access ALU in this design and this situation increases the fsm complexity. I had no right to change the design; so, I had to use a simpler fsm.
